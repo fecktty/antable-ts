@@ -1,7 +1,6 @@
 import * as React from "react";
 import Input from "antd/lib/input";
-
-const Search = Input.Search;
+import Search from "antd/lib/input/Search";
 
 export interface IColumn {
   title: string
@@ -29,7 +28,7 @@ export default class SearchBar extends React.Component<ISearchBarProps, ISearchB
     this.clear = this.clear.bind(this);
   }
 
-  private textInput: any;
+  private textInput: Search;
 
   hover(bool: Boolean) {
     this.setState({ hover: bool });
