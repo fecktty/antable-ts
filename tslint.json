@@ -1,0 +1,16 @@
+{
+  "extends": ["tslint:latest", "tslint-react"],
+  "rules": {
+    "max-line-length": {
+      "quotemark": [true, "single", "jsx-double"],
+      "semicolon": [true, "never"],
+      "options": [120],
+      "object-literal-sort-keys": false
+    }
+  },
+  "jsRules": {
+    "max-line-length": {
+      "options": [120]
+    }
+  }
+}

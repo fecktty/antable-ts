@@ -1,0 +1,16 @@
+.DS_Store
+.npmignore
+
+node_modules/
+
+build/
+example/
+src/
+tests/
+
+tslint.json
+tsconfig.json
+
+.editorconfig
+
+webpack.config.js

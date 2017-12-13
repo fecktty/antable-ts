@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./dist/",
+    "lib": ["dom", "es6", "es7"],
+    "jsx": "react",
+    "declaration": true,
+    "sourceMap": true,
+    "downlevelIteration": true,
+    "noImplicitAny": false,
+    "strict": true,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true
+  }
+}
